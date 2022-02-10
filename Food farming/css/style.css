@@ -1,0 +1,167 @@
+*,
+::after,
+::before {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #3F4042;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+html,
+body {
+    min-height: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3F4042;
+    font-family: 'Avenir';
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.grape {
+    position: absolute;
+    left: 770px;
+    z-index: 1;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0px auto;
+}
+
+
+/*------------header-----------------*/
+
+.header_list {
+    z-index: 2;
+}
+
+.header_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 50px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.header_list:not(:last-child) {
+    margin-right: 60px;
+}
+
+.header_link:link,
+.header_link:visited {
+    padding: 5px;
+    transition: all .2s ease;
+}
+
+.header_link:hover,
+.header_link.active {
+    color: #C08D5D;
+    font-weight: 700;
+}
+
+
+/*-------------- section h1 + text + button-----------*/
+
+.orange_block {
+    height: 634px;
+    background-color: #FFFAF3;
+    box-shadow: 0px 100px 20px -35px rgb(192, 141, 93, .2);
+    margin-bottom: 100px;
+}
+
+.text {
+    padding-top: 50px;
+    margin-left: 120px;
+}
+
+.text h1 {
+    font-family: 'Playfair Display';
+    font-size: 70px;
+    text-transform: uppercase;
+    width: 350px;
+}
+
+.text h1 span {
+    margin-top: 81px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.text h1 span img {
+    margin-left: 20px;
+}
+
+.vector {
+    margin: 25px 0px 26px;
+}
+
+.text p {
+    font-weight: 400;
+    line-height: 27px;
+    width: 505px;
+}
+
+.button {
+    width: 197px;
+    height: 64px;
+    border: 2px solid #C08D5D;
+    position: relative;
+    margin-top: 72px;
+    transition: all .2s ease;
+}
+
+.button:hover {
+    background-color: #f8e7d7;
+}
+
+.button a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 63px;
+    padding-left: 15px;
+    display: block;
+}
+
+.button_1 {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    height: 62px;
+    width: 62px;
+    background-color: #C08D5D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mouse {
+    display: block;
+    margin: 30px auto 0px;
+}

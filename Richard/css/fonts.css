@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Gothic';
+    src: local('Gothic bold'), local('Gothic-bold'), url('../fonts/GothicA1-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gothic';
+    src: local('Gothic regular'), local('Gothic-regular'), url('../fonts/GothicA1-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
