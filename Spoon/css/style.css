@@ -1,0 +1,431 @@
+*,
+::after,
+::before {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    min-height: 100%;
+    font-size: 16px;
+    font-family: 'libre';
+    font-weight: 400;
+    color: #000;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1170px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+
+/*-----------------  First page ---------------------*/
+
+.first_page_background {
+    background: url(../img/IMAGE.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+.header_container {
+    display: flex;
+    align-items: center;
+    padding-top: 22px;
+}
+
+.header_logo_link {
+    margin-right: 400px;
+}
+
+.header_menu {
+    display: flex;
+}
+
+.header_list:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header_link {
+    font-size: 14px;
+    line-height: 24px;
+    transition: all .4s ease;
+}
+
+.header_link:hover {
+    color: #fcc6c6;
+}
+
+.header_button {
+    display: flex;
+    align-items: center;
+}
+
+.header_square {
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    margin: 0px 35px;
+}
+
+.header_sign {
+    margin-right: 35px;
+    font-size: 14px;
+    line-height: 24px;
+    transition: all .4s ease;
+}
+
+.header_sign:hover {
+    text-decoration: underline;
+}
+
+.header_get {
+    width: 120px;
+    height: 46px;
+    line-height: 42px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    transition: all .4s ease;
+}
+
+.header_get:hover {
+    background-color: #666;
+}
+
+.propel_your_business {
+    margin: 120px auto;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 71px;
+    line-height: 78px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.text {
+    font-family: 'IBM';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 30px auto 60px;
+}
+
+.button {
+    margin: 0px auto;
+    display: block;
+    width: 160px;
+    height: 60px;
+    background-color: #5AB963;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 60px;
+    transition: all .4s ease;
+}
+
+.button:hover {
+    background-color: #4b8551;
+}
+
+
+/*------------------ Promoting your business and services with Propel --------------------------*/
+
+.container_services {
+    margin: 120px auto 229px;
+}
+
+.business_and_services {
+    width: 507px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.business_and_services span {
+    font-weight: 100;
+    color: #999999;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    margin-top: 105px;
+}
+
+.services h3 {
+    font-weight: 700;
+    line-height: 24px;
+    margin: 25px 0px 13px;
+}
+
+.services p {
+    font-family: 'IBM';
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+    width: 266px;
+}
+
+
+/*------------------------ eggs photo --------------------*/
+
+.eggs {
+    text-align: center;
+}
+
+.eggs img {
+    height: 720px;
+    width: 1380px;
+}
+
+
+/*--------------------------  Illud decore voluptaria has at. Hinc invenire atomorum no vel. --------------------------------------*/
+
+.container_illud {
+    margin: 115px auto;
+}
+
+.illud_decore {
+    width: 685px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.illud_decore span {
+    color: #999999;
+    font-weight: 100;
+}
+
+.more_about_us {
+    display: block;
+    color: #5AB963;
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    font-family: 'IBM';
+    text-transform: uppercase;
+    margin: 6px auto 0px;
+}
+
+
+/*--------------------- Ex tempor euismod sapientem ouis lexor pro. , Te elit antiopam vix zril recusabo ut pri., Wanna know more about the Premium deal?----------------------------------*/
+
+.container_food {
+    padding: 120px 0px;
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.display_start {
+    display: flex;
+    justify-content: start;
+}
+
+.ex_tempor {
+    width: 362px;
+    margin-left: 100px;
+}
+
+.ex_tempor h2,
+.te_elit h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.ex_tempor span,
+.te_elit span {
+    font-weight: 100;
+    color: #999999;
+}
+
+.ex_tempor p,
+.te_elit p {
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'IBM';
+    color: #999999;
+    margin-top: 25px;
+}
+
+.display_end {
+    display: flex;
+    justify-content: end;
+    margin-top: 90px;
+}
+
+.te_elit {
+    width: 368px;
+    margin-right: 100px;
+}
+
+.container_food h3 {
+    line-height: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 146px auto 12px;
+}
+
+.container_food a {
+    display: block;
+    font-family: 'IBM';
+    font-size: 11px;
+    line-height: 18px;
+    text-align: center;
+    color: #5AB963;
+    text-transform: uppercase;
+}
+
+
+/*--------------------  Party On   -----------------------------*/
+
+.flex_spaceBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px auto;
+}
+
+.party_on>div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.party_on h3 {
+    color: #5AB963;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.line_green {
+    height: 2px;
+    width: 30px;
+    background-color: #5AB963;
+    margin-left: 20px;
+}
+
+.party_on h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    width: 483px;
+    margin-top: 15px;
+}
+
+.party_on span {
+    font-weight: 100;
+    color: #999999;
+}
+
+
+/*---------------------- footer -------------------*/
+
+.footer_background {
+    background-color: #0A0E1A;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: start;
+    padding: 120px 0px 150px;
+}
+
+.footer_logo {
+    margin-right: 370px;
+}
+
+.footer_logo p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    margin-top: 15px;
+    width: 215px;
+}
+
+.footer_list {
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+
+.footer_link {
+    font-size: 12px;
+    color: #fff;
+    line-height: 18px;
+    transition: all .4s ease;
+}
+
+.footer_link:hover {
+    color: #fcc6c6;
+}
+
+.social_networks {
+    margin-left: 40px;
+}
+
+.social_networks a:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+
+/*----------------------- scroll up(arrowTop) --------------------------*/
+
+#arrowTop {
+    width: 25px;
+    height: 25px;
+    border-top: 5px solid #999999;
+    border-right: 5px solid #999999;
+    margin-right: 60px;
+    transform: rotate(-45deg);
+    position: fixed;
+    bottom: 30px;
+    right: -25px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+#arrowTop:hover {
+    border-top: 5px solid #625c5c;
+    border-right: 5px solid #625c5c;
+}
